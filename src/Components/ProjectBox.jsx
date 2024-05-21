@@ -1,6 +1,4 @@
-import React from "react";
-import { FaGithub } from "react-icons/fa";
-import { CgFileDocument } from "react-icons/cg";
+/* eslint-disable react/prop-types */
 
 const ProjectBox = ({ projectPhoto, projectName }) => {
   const desc = {

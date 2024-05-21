@@ -1,9 +1,10 @@
-import React, { useRef } from "react";
+import  { useRef } from "react";
 import Skills from "./Skills.jsx";
 // import ProfilePDF from "../assets/SevenHillsProfile.pdf"
 // import { FaFileDownload } from "react-icons/fa";
 const About = () => {
   const ref=useRef(null)
+  // eslint-disable-next-line no-unused-vars
   const handleDownload=()=>{
     if(ref.current){
       ref.current.click()

@@ -1,11 +1,10 @@
-import React from "react";
-import { Link } from "react-router-dom";
+
 import Type from "./Type.jsx";
 import Tilt from "react-parallax-tilt";
 import CompanyLogo from "../images/interviewLogo.webp"
-import { CgColorBucket, CgPhone } from "react-icons/cg";
+
 import { FaHandPointLeft } from "react-icons/fa";
-import { BsPerson } from "react-icons/bs";
+
 const Home = () => {
   return (
     <div>

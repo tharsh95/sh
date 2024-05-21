@@ -1,4 +1,4 @@
-import React from "react";
+/* eslint-disable react/prop-types */
 import FlipcartLogo from "../images/FlipcartLogo.png"
 import AmberLogo from "../images/amberLogo.png"
 import VihariLogo from "../images/viharilogo.jpg"
@@ -6,22 +6,6 @@ import AshokLeyLand from "../images/ashokleylandlogo.png"
 import AddecoLogo from "../images/adecco.png"
 import InnovSource from "../images/innovlogo.jpeg"
 import Quess from  "../images/quesslogo.png"
-
-
-
-import { CgCPlusPlus } from "react-icons/cg";
-import {
-  FaReact,
-  FaGitAlt,
-  FaGithub,
-  FaNpm,
-  FaFigma,
-  FaBootstrap,  
-  FaHtml5,
-  FaCss3,
-} from "react-icons/fa";
-import { DiJavascript1 } from "react-icons/di";
-import { SiTailwindcss } from "react-icons/si";
 
 const Skills = ({ skill }) => {
   const clients={

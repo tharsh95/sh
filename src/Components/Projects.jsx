@@ -1,4 +1,3 @@
-import React from "react";
 import ProjectBox from "./ProjectBox";
 
 import CateringServices from "../images/cateringlogo.jpeg";
